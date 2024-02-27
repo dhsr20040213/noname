@@ -16051,6 +16051,7 @@ game.import('character',function(lib,game,ui,get,ai,_status){
 						content(){
 							player.exitSubPlayer();
 							player.insertPhase(null,true);
+							player.addTempSkill('nshuanxian_chosen',['phaseBegin','phaseCancelled']);
 						}
 					},
 					right:{
